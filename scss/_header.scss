@@ -1,0 +1,46 @@
+header{
+    width: 100vw;
+    background-image: url(../photos/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.header-banner{
+    width: 100%;
+    height: calc(85vh - 50px);
+    overflow-y: hidden;
+    padding-left: 6%;
+
+    h1{
+        font-size: 3.5rem;
+        margin-top: 20vh;
+        font-size: 300;
+        letter-spacing: 1px;
+        line-height: 58px;
+    }
+
+    p{
+        margin: 25px 0;
+        line-height: 24px;
+    }
+
+    button{
+        padding: 22px 30px;
+        border: 0;
+        background-color: white;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+}
+
+.social-links{
+    width: 100vw;
+    height: calc(15vh - 50px);
+    display: flex;
+    justify-content: space-around;
+
+    img{
+        width: 150px;
+    }
+}
