@@ -1,7 +1,5 @@
 <header>
-    <div class="menu-container">
-        <img src="./photos/logo.png" alt="Logo High Speedway Challenge League">
-    </div>
+    <?php require_once("menu.php"); ?>
     <div class="header-banner">
         <h1>HIGH SPEEDWAY<br>CHALLENGE LEAGUE</h1>
         <p>Zapraszamy do gry w naszej lidze już dziś!<br>Spróbuj swoich sił w następnej kolejce!</p>

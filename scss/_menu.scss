@@ -1,11 +1,25 @@
 .menu-container{
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
     background-color: transparent;
     color: white;
     padding: 35px 5% 0 5%;
 
     img{
         height: 50px;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        font-size: 1.1rem;
+
+        li{
+            padding: 0 18px;
+        }
     }
 }

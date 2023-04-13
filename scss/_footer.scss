@@ -1,0 +1,39 @@
+.footer-contact{
+    width: 100vw;
+    background-color: rgb(30, 30, 30);
+    color: white;
+
+    h2{
+        width: 100vw;
+        text-align: center;
+        padding: 35px 0;
+    }
+}
+
+.footer-ending{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 1rem;
+
+        span{
+            padding: 0 14px;
+        }
+    }
+
+    img{
+        margin-left: 5px;
+        width: 27px;
+        transition: .4s;
+
+        &:hover{
+            width: 30px;
+        }
+    }
+}
