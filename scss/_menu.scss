@@ -20,6 +20,23 @@
 
         li{
             padding: 0 18px;
+            cursor: pointer;
+
+            &::after{
+                content: '';
+                display: block;
+                width: 10%;
+                opacity: 1;
+                height: 2px;
+                background-color: white;
+                transition: .4s;
+            }
+
+            &:hover{
+                &::after{
+                    width: 100%;
+                }
+            }
         }
     }
 }

@@ -41,6 +41,11 @@ header{
     justify-content: space-around;
 
     img{
-        width: 130px;
+        width: 100px;
+        transition: .4s;
+
+        &:hover{
+            width: 115px;
+        }
     }
 }
