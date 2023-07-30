@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -147,6 +148,9 @@ header {
 .news h3, .news p {
   padding: 15px 15px 0 15px;
 }
+.news h5 {
+  padding: 0 15px;
+}
 .news button {
   width: 200px;
   margin: 20px auto;
@@ -163,6 +167,32 @@ header {
 .news button:hover {
   background-color: rgb(40, 40, 40);
   color: white;
+}
+
+#about-section {
+  width: 100vw;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+}
+#about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+#about-section p {
+  padding: 18px 70px 0 50px;
+  text-align: justify;
+  font-size: 1.1rem;
 }
 
 .footer-contact {
