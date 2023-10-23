@@ -1,7 +1,7 @@
 .footer-contact{
     width: 100vw;
-    background-color: rgb(30, 30, 30);
-    color: white;
+    background-color: white;
+    color: color(30, 30, 30);
 
     h2{
         width: 100vw;
@@ -24,6 +24,12 @@
 
         span{
             padding: 0 14px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
         }
     }
 

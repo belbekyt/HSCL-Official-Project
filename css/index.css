@@ -43,7 +43,7 @@ body {
 .menu-container ul li::after {
   content: "";
   display: block;
-  width: 10%;
+  width: 0%;
   opacity: 1;
   height: 2px;
   background-color: white;
@@ -80,11 +80,14 @@ header {
   line-height: 24px;
 }
 .header-banner button {
-  padding: 22px 30px;
+  padding: 15px 30px;
   border: 0;
+  color: rgb(16, 16, 16);
   background-color: white;
   font-weight: bold;
+  font-size: 0.9rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .social-links {
@@ -118,7 +121,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px 0;
+  padding: 75px 7%;
 }
 .news-section h2 {
   font-size: 2.5rem;
@@ -154,9 +157,9 @@ header {
 .news button {
   width: 200px;
   margin: 20px auto;
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   font-size: 1rem;
   padding: 7px;
   color: rgb(30, 30, 30);
@@ -173,6 +176,20 @@ header {
   width: 100vw;
   background-color: rgb(30, 30, 30);
   color: white;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 75px 7%;
+}
+
+.left-about {
+  width: 50%;
+  padding: 25px 50px 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,25 +197,30 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 40px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-#about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+.left-about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
 }
-#about-section p {
-  padding: 18px 70px 0 50px;
+.left-about p {
   text-align: justify;
-  font-size: 1.1rem;
+}
+
+.right-about {
+  width: 50%;
+  height: auto;
+}
+.right-about img {
+  border-radius: 20px;
 }
 
 .footer-contact {
   width: 100vw;
-  background-color: rgb(30, 30, 30);
-  color: white;
+  background-color: white;
+  color: color(30, 30, 30);
 }
 .footer-contact h2 {
   width: 100vw;
@@ -226,6 +248,11 @@ header {
 }
 .footer-ending p span {
   padding: 0 14px;
+}
+.footer-ending p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 .footer-ending img {
   margin-left: 5px;

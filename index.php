@@ -46,12 +46,14 @@
     </section>
 
     <section id="about-section">
-        <h2>Jak wygląda nasza liga?</h2>
-        <p>Witajcie w ekscytującym świecie High Speedway Challenge League - ligi żużlowej online, która wciągnie was w wir adrenaliny i emocji prosto z ekranu komputera, bądź telefonu! Ta niepowtarzalna liga łączy miłośników żużla z różnych zakątków świata, umożliwiając im wspólną rywalizację i ściganie na wirtualnych torach.</p>
-        <p>HSCL nie tylko oferuje emocjonujące rozgrywki indywidualne, ale przede wszystkim rywalizację drużynową. Zawodnicy mogą dołączyć do ekipy i wspólnie dążyć do zdobycia tytułu mistrzowskiego. Drużynowy duch, solidarna walka i taktyczne rozważania są niezbędne, aby zakończyć sezon w górnej części tabeli.</p>
-        <p>Kluczowym elementem "High Speedway Challenge League" jest także system nagród i osiągnięć. Zawodnicy, którzy wykazują się nie tylko talentem, ale również wytrwałością i determinacją, mogą próbować swoich sił w wielu ciekawych zawodach i turniejach. Każdy może zapisąć się w kartach histoii ligii, oraz nierzadko zdobyć atrakcyjne nagrody za wygranie najbardziej prestiżowych turniejów.</p>
-        <p>HSCL pozwala żywo poczuć prawdziwą atmosferę sportu żużlowego. Nasza liga to niezrównane połączenie sportowej rywalizacji, ducha współzawodnictwa i wirtualnej rozrywki, której efektem są niezapomniane emocje i adrenalina podczas każdej rozgrywki.<br>
-        Czy jesteś gotowy, by wkroczyć na tor i podjąć wyzwanie w "High Speedway Challenge League"? Czekamy na ciebie!</p>
+        <div class="left-about">
+            <p>O NAS</p>
+            <h2>Czym jest liga HSCL?</h2>    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis itaque aliquam odit eum ducimus aspernatur alias pariatur explicabo nemo suscipit dolorum libero necessitatibus autem perferendis aliquid, eius, commodi ex! ducimus aspernatur alias pariatur explicabo nemo suscipit dolorum libero necessitatibus autem perferendis aliquid, eius, commodi ex!</p>
+        </div>
+        <div class="right-about">
+            <img src="./photos/about.jpg" alt="">
+        </div>
     </section>
 
     <?php require_once("./modules/footer.php"); ?>

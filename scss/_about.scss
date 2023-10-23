@@ -2,19 +2,34 @@
     width: 100vw;
     background-color: rgb(30, 30, 30);
     color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 75px 7%;
+}
+
+.left-about{
+    width: 50%;
+    padding: 25px 50px 25px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 40px 0;
+    justify-content: center;
 
     h2{
-        font-size: 2.5rem;
-        margin-bottom: 30px;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
     }
 
     p{
-        padding: 18px 70px  0 50px;
         text-align: justify;
-        font-size: 1.1rem;
+    }
+}
+
+.right-about{
+    width: 50%;
+    height: auto;
+
+    img{
+        border-radius: 20px;
     }
 }
