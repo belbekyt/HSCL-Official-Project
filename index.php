@@ -50,6 +50,7 @@
             <p>O NAS</p>
             <h2>Czym jest liga HSCL?</h2>    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis itaque aliquam odit eum ducimus aspernatur alias pariatur explicabo nemo suscipit dolorum libero necessitatibus autem perferendis aliquid, eius, commodi ex! ducimus aspernatur alias pariatur explicabo nemo suscipit dolorum libero necessitatibus autem perferendis aliquid, eius, commodi ex!</p>
+            <p style="margin-top:15px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis itaque aliquam odit eum ducimus aspernatur alias pariatur explicabo nemo suscipit dolorum libero necessitatibus autem perferendis aliquid, eius, commodi ex! </p>
         </div>
         <div class="right-about">
             <img src="./photos/about.jpg" alt="">
