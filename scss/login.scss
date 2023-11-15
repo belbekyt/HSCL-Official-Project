@@ -10,7 +10,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(94, 94, 94) 100%);
+    background-image: url('../photos/login.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
